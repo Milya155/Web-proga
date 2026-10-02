@@ -31,8 +31,8 @@ a:hover {
 
 .content {
     display: flex;               /* Выстраивает блоки в ряд */
-    justify-content: center; /* Распределяет их по краям */
-    align-items: flex-start;     /* Прижимает к верху */
+    justify-content: center; /* Выравнивает по главной оси */
+    align-items: flex-start;     /* Прижимает к верху, выравнивает по побочной оси */
     width: 90%;                  /* Ширина контейнера */
     max-width: 1000px;           /* Чтобы не растягивалось на огромных экранах */
     margin: 0 auto;           /* Центрирует контейнер на странице */
